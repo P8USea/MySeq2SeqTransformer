@@ -2,8 +2,7 @@
 A real time translator based on Seq2SeqTransformer Model using for my mid-term project in college (HUS)
 
 
----------------------------------------------------------------------------------------------------------------------------------
-(English below)
+----------------------------------------------------------------------------------------------------------------------------
 Đây là một mô hình dịch thuật sử dụng kiến trúc Transformer với cơ chế attention. Mô hình hiện tại chỉ đang ở mức sơ khai, tác giả sẽ cập nhật phiên bản mới khi có thể :vv
 
 Thông qua mô hình này bạn có thể:
@@ -51,7 +50,8 @@ Với môi trường tích hợp trên máy tính, cần cài đặt
 
 # Tập dữ liệu
 
-Dữ liệu huấn luyện: https://www.kaggle.com/datasets/hungnm/englishvietnamese-translation
+Dữ liệu huấn luyện: en-vi.zip(https://www.kaggle.com/datasets/hungnm/englishvietnamese-translation)
+
 Model checkpoint:
 Từ vựng sử dụng: 
 
@@ -65,5 +65,6 @@ Mô hình sử dụng cơ chế self-attention. Ngoài ra, bạn có thể sử 
 + LSTM
 + Vân vân ...
 
-# Hướng dẫn cài đặt
-
+# Hướng dẫn sử dụng
+Vui lòng tải về file dữ liệu huấn luyện en-vi.zip hoặc en_vocab và vi_vocab cho từ vựng đã được xây dựng sẵn và sử dụng đường dẫn của file tới phần load data của CustomDataset. 
+Sử dụng file check-point để load model đã được huấn luyện 
