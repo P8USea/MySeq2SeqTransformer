@@ -52,8 +52,8 @@ Với môi trường tích hợp trên máy tính, cần cài đặt
 
 Dữ liệu huấn luyện: en-vi.zip(https://www.kaggle.com/datasets/hungnm/englishvietnamese-translation)
 
-Model checkpoint:
-Từ vựng sử dụng: 
+Model checkpoint: https://www.kaggle.com/datasets/p8usea/transformer-checkpoint
+Từ vựng sử dụng: en_vocab.json, vi_vocab.json
 
 # Huấn luyện mô hình
 
@@ -67,4 +67,4 @@ Mô hình sử dụng cơ chế self-attention. Ngoài ra, bạn có thể sử 
 
 # Hướng dẫn sử dụng
 Vui lòng tải về file dữ liệu huấn luyện en-vi.zip hoặc en_vocab và vi_vocab cho từ vựng đã được xây dựng sẵn và sử dụng đường dẫn của file tới phần load data của CustomDataset. 
-Sử dụng file check-point để load model đã được huấn luyện 
+Sử dụng file check-point để load model đã được huấn luyện.
